@@ -1,13 +1,87 @@
 ---
-title: Note to self
-author: Marie Curie
-branding: true
-spacing: 1.3
-format: memo-pdf
+name: Cynthia Huang
+email:  cynthia.huang@monash.edu
+phone: +61 411 238 243
+www: cynthiahqy.com
+format: cv-pdf
 ---
 
-**Lorem ipsum dolor** sit amet, consectetur adipiscing elit. Proin mollis dolor vitae tristique *eleifend*. Quisque non ipsum sit amet velit malesuada consectetur. Praesent vel facilisis leo. Sed facilisis varius orci, ut aliquam lorem malesuada in. Morbi nec purus at nisi fringilla varius non ut dui. Pellentesque bibendum sapien velit. Nulla purus justo, congue eget enim a, elementum sollicitudin eros. Cras porta augue ligula, vel adipiscing odio ullamcorper eu. In tincidunt nisi sit amet tincidunt tincidunt. Maecenas elementum neque eget dolor [egestas fringilla](http://example.com):
+```{r}
+#| include: false
+library(tidyverse)
+```
 
-> Nullam eget dapibus quam, sit amet sagittis magna. Nam tincidunt, orci ac imperdiet ultricies, neque metus ultrices quam, id gravida augue lacus ac leo.
+# SKILLS
 
-Vestibulum id sodales lectus, sed scelerisque quam. Nullam auctor mi et feugiat commodo. Duis interdum imperdiet nulla, vitae bibendum eros placerat non. Cras ornare, risus in faucibus malesuada, libero sem fringilla quam, ut luctus enim sapien eget dolor.
+## Programming
+
+* Command line shell scripting (bash, zsh)
+* Data analysis and modelling (R, python, MATLAB, SAS)
+* Version control (git)
+* Typesetting (LaTeX, markdown, quarto)
+
+## Languages
+
+* English *Native*
+* Mandarin *Skilled*
+* Cantonese *Skilled*
+* Japanese *Basic*
+
+# EDUCATION
+
+**Doctor of Philosophy – Econometrics and Business Statistics**, *Monash University*\hfill  Aug 2021 -– Present
+
+* Researching principles and methods for data preparation with applications in economics, official
+statistics, and satellite deep learning
+* Monash Data Futures Institute PhD Top-Up Scholarship (2021-2024)
+* Expected graduation date: Nov 2024
+
+**Bachelor of Commerce (Honours) – Economics**, *The University of Melbourne*\hfill Feb 2016 -– Nov 2016
+
+* Graduated with First Class Honours
+* Completed research essay modelling information escrows for victims of domestic violence
+
+**Bachelor of Commerce – Economics & Management**, *The University of Melbourne*\hfill Mar 2012 -– Oct 2014
+
+* Graduated with First Class Honours, and inclusion on Dean’s Honours List
+
+**Summer School: EC307 Development Economics**, *London School of Economics*\hfill Jul 2014 -– Aug 2014
+
+* Final Result: A
+
+**Victorian Certificate of Education**, *The Mac.Robertson Girls' High School*\hfill Feb 2009 –- Nov 2011
+
+* Australian Tertiary Admission Rank (ATAR): 98.95
+
+# Employment history
+
+```{r employment, results='asis'}
+tribble(
+    ~Start, ~End, ~Position,
+    1985, 1992, "\\textbf{Statistical consultant}, Department of Statistics, University of Melbourne",
+    1993, 1994, "\\textbf{Lecturer}, Department of Statistics, University of Melbourne",
+    1995, 1996, "\\textbf{Lecturer}, Department of Mathematics and Statistics, Monash University",
+    1997, 1998, "\\textbf{Senior Lecturer}, Department of Mathematics and Statistics, Monash University",
+    1998, 1998, "\\textbf{Visiting Professor}, Department of Statistics, Colorado State University",
+    1998, 2000, "\\textbf{Senior Lecturer}, Department of Econometrics \\& Business Statistics, Monash University",
+    2001, 2003, "\\textbf{Associate Professor}, Department of Econometrics \\& Business Statistics, Monash University",
+    2002, 2002, "\\textbf{Visiting Senior Research Fellow}, Mathematical Sciences Institute, Australian National University",
+    2003, NA, "\\textbf{Professor}, Department of Econometrics \\& Business Statistics, Monash University",
+    2016, 2016, "\\textbf{KNAW Visiting Professor}, TU/Eindhoven, Netherlands",
+  ) |>
+  arrange(-Start) |>
+  mutate(
+    Start = as.character(Start),
+    End = as.character(End),
+    End = replace_na(End, ""),
+    Years = if_else(End == Start,
+        as.character(Start),
+        paste(Start, "--", End, sep = ""),
+        paste(Start, "--", End, sep = "")
+    )
+  ) |>
+  select(Years, Position) |>
+  knitr::kable(escape=FALSE, bottomrule = '', toprule = '', midrule = '',
+    col.names = NULL, booktab = TRUE)  |>
+  kableExtra::kable_styling(full_width = FALSE, position = "left")
+```

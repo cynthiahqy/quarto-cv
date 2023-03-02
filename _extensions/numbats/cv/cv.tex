@@ -8,7 +8,7 @@ $else$
 \usepackage[cmintegrals]{newtxsf}
 \usepackage[italic,eulergreek]{mathastext}
 $endif$
-\usepackage{setspace}
+\usepackage{setspace}\spacing{1}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
@@ -198,26 +198,16 @@ $endif$
 \def\fps@figure{htbp}
 \makeatother
 
-$if(title)$
-\title{$title$}
+$if(name)$
+\title{$name$}
 $endif$
-$if(subtitle)$
-\providecommand{\subtitle}[1]{}
-\subtitle{$subtitle$}
-$endif$
-
-$if(author)$
-\author{$author$}
-$endif$
+\author{
+  $if(phone)$$phone$$endif$\quad
+  $if(email)$$email$$endif$\quad
+  $if(www)$$www$$endif$\quad
+}
 
 %% MONASH STUFF
-
-%% CAPTIONS
-\RequirePackage{caption}
-\DeclareCaptionStyle{italic}[justification=centering]
- {labelfont={bf},textfont={it},labelsep=colon}
-\captionsetup[figure]{style=italic,format=hang,singlelinecheck=true}
-\captionsetup[table]{style=italic,format=hang,singlelinecheck=true}
 
 %% FONT
 \usepackage{bm,url}
@@ -240,33 +230,23 @@ $endif$
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}}
 
-%% MATHS
-\RequirePackage{bm,amsmath}
-\allowdisplaybreaks
-
-%% GRAPHICS
-\RequirePackage{graphicx}
-\setcounter{topnumber}{2}
-\setcounter{bottomnumber}{2}
-\setcounter{totalnumber}{4}
-\renewcommand{\topfraction}{0.85}
-\renewcommand{\bottomfraction}{0.85}
-\renewcommand{\textfraction}{0.15}
-\renewcommand{\floatpagefraction}{0.8}
-
-%\RequirePackage[section]{placeins}
-
 %% SECTION TITLES
 \RequirePackage[compact,sf,bf]{titlesec}
-\titleformat{\section}[block]
-  {\fontsize{15}{17}\bfseries\sffamily}
-  {\thesection}
-  {0.4em}{}
+\titleformat{name=\section}[block]
+  {\sffamily\large}
+  {}
+  {0pt}
+  {\colorsection}
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip}
+\newlength{\secnumberwd}
+\newcommand{\colorsection}[1]{%
+\colorbox{gray!75}{\parbox[t]{\dimexpr\textwidth-2\fboxsep-\secnumberwd}{\centerline{\textcolor{white}{#1}}}}%
+}
 \titleformat{\subsection}[block]
   {\fontsize{12}{14}\bfseries\sffamily}
   {\thesubsection}
   {0.4em}{}
-\titlespacing{\section}{0pt}{*3}{*1}
+\titlespacing{\section}{0pt}{*1.5}{*1}
 \titlespacing{\subsection}{0pt}{*1}{*0.5}
 
 %% LINE AND PAGE BREAKING
@@ -295,8 +275,6 @@ $endif$
      urlcolor=blue,
      citecolor=darkblue,
      colorlinks=true}
-
-\usepackage[showonlyrefs]{mathtools}
 
 %% BIBLIOGRAPHY
 
@@ -341,22 +319,12 @@ $endif$
 \setlength{\TPHorizModule}{1cm}
 \setlength{\TPVertModule}{1cm}
 
-\pretitle{%
-$if(branding)$%
-\begin{textblock}{4}(1.9,0.85)\includegraphics[height=1.5cm]{_extensions/numbats/memo/monash2}\end{textblock}%
-\begin{textblock}{4}(17.25,0.8)\includegraphics[height=1.5cm]{_extensions/numbats/memo/MBSPortrait}\end{textblock}%
-\begin{textblock}{6}(13,28)\includegraphics[height=0.7cm]{_extensions/numbats/memo/AACSB}~~~
-        \includegraphics[height=0.7cm]{_extensions/numbats/memo/EQUIS}~~~
-        \includegraphics[height=0.7cm]{_extensions/numbats/memo/AMBA}
-\end{textblock}
-$endif$
-\vspace*{-1.2cm}
-\LARGE\bfseries}
-\posttitle{\vspace*{0.3cm}\par}
-\preauthor{\large}
-\postauthor{\hfill}
-\predate{\small}
-\postdate{\vspace*{0.1cm}}
+\pretitle{\vspace*{-3cm}\LARGE\bfseries\begin{center}}
+\posttitle{\end{center}}
+\preauthor{\begin{center}}
+\postauthor{\end{center}}
+\predate{\begin{center}\small}
+\postdate{\end{center}}
 
 \raggedbottom
 
@@ -373,18 +341,8 @@ $endfor$
 
 
 \begin{document}
-$if(title)$
-$if(branding)$\vspace*{0cm}$else$\vspace*{-2cm}$endif$
-\definecolor{shadecolor}{RGB}{210,210,210}
-\begin{snugshade}\sffamily
+$if(name)$
 \maketitle
-\end{snugshade}\vspace*{0.5cm}
-\definecolor{shadecolor}{RGB}{248,248,248}
-$endif$
-$if(spacing)$
-\setstretch{$spacing$}
-$else$
-\setstretch{1.2}
 $endif$
 
 $for(include-before)$
