@@ -1,0 +1,37 @@
+---
+name: Cynthia A. Huang
+title: ""
+tel: +61 411 238 243
+email:
+  monash: cynthia.huang@monash.edu
+  personal: cynthiahqy@gmail.com
+www: cynthiahqy.com
+twitter: cynthiahqy
+linkedin: cynthiahqy
+
+experience:
+  - title: Data Scientist
+    description: |
+      "Providing data collection, pre-processing, exploratory analysis and modelling services to clients in the early R&D stages of developing data driven products."
+    details:
+    - title: "Projects include:"
+      items:
+        - "Data description and preliminary product feasibility insights for a start-up real estate bond platform; including assessing suitability of various property transaction databases for use in initial product prototype."
+        - "Development of statistical anomaly detection regimes and key historical insights from internet quality time-series data for use in parametric insurance products, including documenting analysis tools in an R package."
+    roles:
+      - place: Multiple Clients (Freelance)
+        start-date: 2020-01-01
+        end-date: 2021-06-01
+  - title: Research Assistant
+    description: |
+      "Supporting multiple projects with dataset design, data collection and pre-processing, exploratory visualisation and preliminary analysis tasks. Project supervisors included: Assoc. Prof. Nathaniel Lane (Uni. of Oxford), Prof. Paul Raschky, Assoc. Prof. Laura Puzzello, Assoc. Prof. Simon Angus and Dr. Patricia Mendez at Monash University; Prof. David Byrne and Prof. Phillip McCalman at University of Melbourne."
+    details:
+      - title: "Key Skills and Achivements include:"
+        items:
+          - "Sourcing data online from Wikimedia, UNIDO, FedScope and DHS Program databases, including construction of SPARQL and REST API queries, writing reproducible web scraping and/or file download scripts"
+          - "Pre-processing of data including parsing XML data into tabular form, writing scripts and managing local resource usage for accessing big data archives such as Wikipedia dumps"
+          - "Merging multiple data releases into a single consistent panel including preparing and applying concordance tables to harmonise between ISIC (International Standard Industrial Classifications of All Economic Activities) revisions"
+          - "Reshaping data tables and pre-selection of key variables from DHS (Demographic and Health Survey) data for use with machine learning approaches"
+          - "Preparation of data summaries and visualisations highlighting key dataset features and preliminary exploratory insights and analysis"
+---
+
