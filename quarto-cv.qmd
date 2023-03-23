@@ -123,6 +123,12 @@ Worked collaboratively to deliver work in Corporate Finance, Forensic Investigat
 -   Digital marketing strategy and implementation plan including identification of key platforms, competitor and industry analysis, target client activity, resourcing, and risk analysis.
 -   People and Culture Review including recommendations on intranet design, staff engagement, and internal communication tools and policy.
 
+# WORKSHOPS & TALKS
+
+-   Workshop: "Writing academic papers with Rmarkdown and friends" (9 Aug 2022, Monash University)
+-   Talk: "Misadventures with Reproducibility in R" (30 Nov 2022, R Ladies Melbourne Meetup)
+-   Co-Host of The Random Sample Podcast
+
 # Employment history
 
 ```{r employment, results='asis'}
