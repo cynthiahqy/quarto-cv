@@ -29,26 +29,26 @@ library(tidyverse)
 
 # EDUCATION
 
-**Doctor of Philosophy -- Econometrics and Business Statistics**, *Monash University*\hfill  Aug 2021 --- Present
+**Doctor of Philosophy -- Econometrics and Business Statistics**, *Monash University*\hfill\mbox{}  *Aug 2021 --- Present*
 
 -   Researching principles and methods for data preparation with applications in economics, official statistics, and satellite deep learning
 -   Monash Data Futures Institute PhD Top-Up Scholarship (2021-2024)
 -   Expected graduation date: Nov 2024
 
-**Bachelor of Commerce (Honours) -- Economics**, *The University of Melbourne*\hfill Feb 2016 --- Nov 2016
+**Bachelor of Commerce (Honours) -- Economics**, *The University of Melbourne*\hfill\mbox{} *Feb 2016 --- Nov 2016*
 
 -   Graduated with First Class Honours
 -   Completed research essay modelling information escrows for victims of domestic violence
 
-**Bachelor of Commerce -- Economics & Management**, *The University of Melbourne*\hfill Mar 2012 --- Oct 2014
+**Bachelor of Commerce -- Economics & Management**, *The University of Melbourne*\hfill\mbox{} *Mar 2012 --- Oct 2014*
 
 -   Graduated with First Class Honours, and inclusion on Dean's Honours List
 
-**Summer School: EC307 Development Economics**, *London School of Economics*\hfill Jul 2014 --- Aug 2014
+**Summer School: EC307 Development Economics**, *London School of Economics*\hfill\mbox{} *Jul 2014 --- Aug 2014*
 
 -   Final Result: A
 
-**Victorian Certificate of Education**, *The Mac.Robertson Girls' High School*\hfill Feb 2009 --- Nov 2011
+**Victorian Certificate of Education**, *The Mac.Robertson Girls' High School*\hfill\mbox{} *Feb 2009 --- Nov 2011*
 
 -   Australian Tertiary Admission Rank (ATAR): 98.95
 
@@ -56,108 +56,75 @@ library(tidyverse)
 
 ## Data Scientist
 
-Freelance, Multiple Clients Jan 2020 -- June 2021
+***Freelance, Multiple Clients***\hfill\mbox{} *Jan 2020 -- June 2021*
 
 Providing data collection, pre-processing, exploratory analysis and modelling services to clients in the early R&D stages of developing data driven products. Projects include:
 
--   Data description and preliminary product feasibility insights for a start-up real estate bond platform; including assessing suitability of various property transaction databases for use in initial product prototype.
--   Development of statistical anomaly detection regimes and key historical insights from internet quality time-series data for use in parametric insurance products, including documenting analysis tools in an R package.
+  -   Data description and preliminary product feasibility insights for a start-up real estate bond platform; including assessing suitability of various property transaction databases for use in initial product prototype.
+  -   Development of statistical anomaly detection regimes and key historical insights from internet quality time-series data for use in parametric insurance products, including documenting analysis tools in an R package.
 
 ## Research Assistant
 
-SoDa Laboratories, Monash University\hfill July 2019 -- Present
-
-Department of Economics, Monash University\hfill    Nov 2019 -- Present
-
-Department of Econometrics and Business Statistics, Monash University\hfill Oct 2020 -- Dec 2020
-
-Department of Economics, University of Melbourne\hfill Mar 2018 -- Dec 2018
+***SoDa Laboratories, Monash University***\hfill\mbox{} *July 2019 -- Present*\newline
+***Department of Economics, Monash University***\hfill\mbox{}    *Nov 2019 -- Present*\newline
+***Department of Econometrics and Business Statistics, Monash University***\hfill\mbox{} *Oct 2020 -- Dec 2020*\newline
+***Department of Economics, University of Melbourne***\hfill\mbox{} *Mar 2018 -- Dec 2018*
 
 Supporting multiple projects with dataset design, data collection and pre-processing, exploratory visualisation, and preliminary analysis tasks. Project supervisors included:
 
--   Monash University: Assoc. Prof. Nathaniel Lane (Uni. of Oxford), Prof. Paul Raschky, Assoc. Prof. Laura Puzzello, Assoc. Prof. Simon Angus, Dr. Patricia Menendez and Dr. Klaus Ackermann.
--   University of Melbourne: Prof. David Byrne and Prof. Phillip McCalman.
+  -   Monash University: Assoc. Prof. Nathaniel Lane (Uni. of Oxford), Prof. Paul Raschky, Assoc. Prof. Laura Puzzello, Assoc. Prof. Simon Angus, Dr. Patricia Menendez and Dr. Klaus Ackermann.
+  -   University of Melbourne: Prof. David Byrne and Prof. Phillip McCalman.
 
-Key skills and achievements include:
+\pagebreak[3]
 
--   Processing archival microfiche and web-scraped data to construct chronological record of US spectrum license trading, including selecting harmonised variables and coordinating data entry by other team members.
--   Sourcing archival magazines to collect produce and price information for the Laser Printer market from 1984 onwards
--   Sourcing data online from Wikimedia, UNIDO, FedScope and DHS Program databases, including construction of SPARQL and REST API queries, writing reproducible web scraping and/or file download scripts
--   Pre-processing of data including parsing XML data into tabular form, writing scripts and managing local resource usage for accessing big data archives such as Wikipedia dumps
--   Merging multiple data releases into a single consistent panel including preparing and applying concordance tables to harmonise between ISIC (International Standard Industrial Classifications of All Economic Activities) revisions
--   Reshaping data tables and pre-selection of key variables from DHS (Demographic and Health Survey) data for use with machine learning approaches
--   Preparation of data summaries and visualisations highlighting key dataset features and preliminary exploratory insights and analysis"
+*Key skills and achievements include:*
+
+  -   Processing archival microfiche and web-scraped data to construct chronological record of US spectrum license trading, including selecting harmonised variables and coordinating data entry by other team members.
+  -   Sourcing archival magazines to collect produce and price information for the Laser Printer market from 1984 onwards
+  -   Sourcing data online from Wikimedia, UNIDO, FedScope and DHS Program databases, including construction of SPARQL and REST API queries, writing reproducible web scraping and/or file download scripts
+  -   Pre-processing of data including parsing XML data into tabular form, writing scripts and managing local resource usage for accessing big data archives such as Wikipedia dumps
+  -   Merging multiple data releases into a single consistent panel including preparing and applying concordance tables to harmonise between ISIC (International Standard Industrial Classifications of All Economic Activities) revisions
+  -   Reshaping data tables and pre-selection of key variables from DHS (Demographic and Health Survey) data for use with machine learning approaches
+  -   Preparation of data summaries and visualisations highlighting key dataset features and preliminary exploratory insights and analysis"
 
 ## Academic Tutor
 
-Department of Econometrics and Business Statistics, Monash University\hfill Mar 2020 -- July 2020
-
-Faculty of Business and Economics, University of Melbourne\hfill Jul 2016 -- Nov 2019
+***Department of Econometrics and Business Statistics, Monash University***\hfill\mbox{} *Mar 2020 -- July 2020*\newline
+***Faculty of Business and Economics, University of Melbourne***\hfill\mbox{} *Jul 2016 -- Nov 2019*
 
 Preparing and delivering in-person and online tutorials and workshops for undergraduate and masters students. Subject areas taught include:
 
--   Data collection and wrangling, Open Data principles, Data Analysis in R
--   Microeconomics, Macroeconomics, Game Theory, Computational Economics in SAS and MATLAB
--   Quantitative Methods, Business Analytics, and Business Case Analysis Additional support provided beyond the standard teaching responsibilities included:
--   Creating supplementary resources to support students at various levels
--   Providing feedback on assignment and overall subject design as an experienced tutor
--   Preparing and delivering subject review lectures
--   Designing marking guides, and ensuring consistency across all markers
+  -   Data collection and wrangling, Open Data principles, Data Analysis in R
+  -   Microeconomics, Macroeconomics, Game Theory, Computational Economics in SAS and MATLAB
+  -   Quantitative Methods, Business Analytics, and Business Case Analysis
 
-## Analyst
+Additional support provided beyond the standard teaching responsibilities included:
 
-Australian Competition and Consumer Commission (Intern)\hfill Jan 2017 -- Feb 2017
+  -   Creating supplementary resources to support students at various levels
+  -   Providing feedback on assignment and overall subject design as an experienced tutor
+  -   Preparing and delivering subject review lectures
+  -   Designing marking guides, and ensuring consistency across all markers
+
+## Business Analyst
+
+***Australian Competition and Consumer Commission (Intern)***\hfill\mbox{} *Jan 2017 -- Feb 2017*
 
 Assisted in research, analysis and drafting tasks for study of competition and consumer issues in the Australian communications sector. Contributions included:
 
--   Researching and drafting a framework for synthesising vertical and horizontal competition issues
--   Preparing supporting visuals including graphs and flowcharts
--   Attended regular training sessions on all aspects of ACCC work
+  -   Researching and drafting a framework for synthesising vertical and horizontal competition issues
+  -   Preparing supporting visuals including graphs and flowcharts
+  -   Attended regular training sessions on all aspects of ACCC work
 
-Grant Thornton Thailand\hfill Feb 2015 -- Feb 2016
-
-Grant Thornton Thailand (Intern)\hfill Sep 2014 -- Dec 2014
+***Grant Thornton Thailand***\hfill\mbox{} Feb 2015 -- Feb 2016\newline
+***Grant Thornton Thailand (Intern)***\hfill\mbox{} *Sep 2014 -- Dec 2014*
 
 Worked collaboratively to deliver work in Corporate Finance, Forensic Investigations, and Business Strategy Planning. Project geographies included Thailand, Myanmar, and China. Industries included infrastructure, natural resources and financial services. Research skills such as market research, needs analysis, and strategy recommendations were used to deliver projects such as:
 
--   Digital marketing strategy and implementation plan including identification of key platforms, competitor and industry analysis, target client activity, resourcing, and risk analysis.
--   People and Culture Review including recommendations on intranet design, staff engagement, and internal communication tools and policy.
+  -   Digital marketing strategy and implementation plan including identification of key platforms, competitor and industry analysis, target client activity, resourcing, and risk analysis.
+  -   People and Culture Review including recommendations on intranet design, staff engagement, and internal communication tools and policy.
 
 # WORKSHOPS & TALKS
 
 -   Workshop: "Writing academic papers with Rmarkdown and friends" (9 Aug 2022, Monash University)
 -   Talk: "Misadventures with Reproducibility in R" (30 Nov 2022, R Ladies Melbourne Meetup)
 -   Co-Host of The Random Sample Podcast
-
-# Employment history
-
-```{r employment, results='asis'}
-tribble(
-    ~Start, ~End, ~Position,
-    1985, 1992, "\\textbf{Statistical consultant}, Department of Statistics, University of Melbourne",
-    1993, 1994, "\\textbf{Lecturer}, Department of Statistics, University of Melbourne",
-    1995, 1996, "\\textbf{Lecturer}, Department of Mathematics and Statistics, Monash University",
-    1997, 1998, "\\textbf{Senior Lecturer}, Department of Mathematics and Statistics, Monash University",
-    1998, 1998, "\\textbf{Visiting Professor}, Department of Statistics, Colorado State University",
-    1998, 2000, "\\textbf{Senior Lecturer}, Department of Econometrics \\& Business Statistics, Monash University",
-    2001, 2003, "\\textbf{Associate Professor}, Department of Econometrics \\& Business Statistics, Monash University",
-    2002, 2002, "\\textbf{Visiting Senior Research Fellow}, Mathematical Sciences Institute, Australian National University",
-    2003, NA, "\\textbf{Professor}, Department of Econometrics \\& Business Statistics, Monash University",
-    2016, 2016, "\\textbf{KNAW Visiting Professor}, TU/Eindhoven, Netherlands",
-  ) |>
-  arrange(-Start) |>
-  mutate(
-    Start = as.character(Start),
-    End = as.character(End),
-    End = replace_na(End, ""),
-    Years = if_else(End == Start,
-        as.character(Start),
-        paste(Start, "--", End, sep = ""),
-        paste(Start, "--", End, sep = "")
-    )
-  ) |>
-  select(Years, Position) |>
-  knitr::kable(escape=FALSE, bottomrule = '', toprule = '', midrule = '',
-    col.names = NULL, booktab = TRUE)  |>
-  kableExtra::kable_styling(full_width = FALSE, position = "left")
-```
