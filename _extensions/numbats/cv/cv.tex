@@ -323,15 +323,17 @@ $endif$
 \posttitle{\end{center}}
 \preauthor{\begin{center}}
 \postauthor{\end{center}}
-\predate{\begin{center}\small}
-\postdate{\end{center}}
 
 \raggedbottom
 
 \usepackage[australian]{babel}
 $if(date)$
+\predate{\begin{center}\small}
+\postdate{\end{center}}
 \date{$date$}
 $else$
+\predate{}
+\postdate{\vspace{-0.3cm}}
 \date{}
 $endif$
 
