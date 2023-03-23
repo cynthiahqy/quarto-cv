@@ -20,13 +20,6 @@ library(tidyverse)
 -   Version control (git)
 -   Typesetting (LaTeX, markdown, quarto)
 
-## Languages
-
--   English *Native*
--   Mandarin *Skilled*
--   Cantonese *Skilled*
--   Japanese *Basic*
-
 # EDUCATION
 
 **Doctor of Philosophy -- Econometrics and Business Statistics**, *Monash University*\hfill\mbox{}  *Aug 2021 --- Present*
